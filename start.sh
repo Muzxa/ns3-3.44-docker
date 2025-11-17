@@ -1,0 +1,1 @@
+docker run --platform linux/amd64 -it -v ./volume:/ns-allinone-3.44/ns-3.44/volume ubuntu22.04-amd64 bash

@@ -1,0 +1,1 @@
+docker build --platform linux/amd64 -t ubuntu22.04-amd64 .
