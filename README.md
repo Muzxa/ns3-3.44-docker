@@ -1,4 +1,8 @@
-# NS-3 Docker Setup
+# NS-3 Docker
+
+# Prerequisites
+- Docker (https://www.docker.com/get-started)
+- Git    (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 # Optional Docker Setup 
 If you don't want to use .cc (C++ programs), you can comment out the following lines in the Dockerfile to save some space:
