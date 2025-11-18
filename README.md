@@ -29,12 +29,13 @@ cd ns3-3.44-docker
 ## Build The Docker Image
 
 ```bash
+chmod +x build.sh
 ./build.sh
 ```
 
 Or manually (If you are on windows, this is necessary):
 
-```bash
+```cmd
 docker build --platform linux/amd64 -t ubuntu22.04-amd64 .
 ```
 
@@ -43,13 +44,14 @@ This will take some time, so please be patient.
 ## Run
 
 ```bash
+chmod +x start.sh
 ./start.sh
 ```
 
 Or manually (If you are on windows, this is necessary):
 
-```bash
-docker run --platform linux/amd64 -it -v ./volume:/ns-allinone-3.44/ns-3.44/volume ubuntu22.04-amd64 bash
+```cmd
+docker run --platform linux/amd64 -it -v %cd%\volume:/ns-allinone-3.44/ns-3.44/volume ubuntu22.04-amd64 bash
 ```
 
 ## Usage
